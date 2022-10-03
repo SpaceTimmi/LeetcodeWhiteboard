@@ -12,6 +12,11 @@
         "js":["contentScript.js"]
     },
     "action": {
+        "default_icon": {
+            "16": "assets/graphic-tablet-16.png",
+            "24": "assets/graphic-tablet-24.png",
+            "32": "assets/graphic-tablet-32.png"
+        },
         "default_popup": "popup.html",
         "default_title": "Leetcode whiteboard"
     },
