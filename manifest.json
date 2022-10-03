@@ -2,5 +2,18 @@
     "name": "Leetcode Whiteboard",
     "version": "0.1.0",
     "description": "On screen whiteboard when solving leetcode problems.",
-    "host_permissions": ["https://*leetcode.com/*"]
+    "permissions": ["tabs", "activeTab"],
+    "host_permissions": ["https://*.leetcode.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content-scripts": {
+        "matches": ["https://*.leetcode.com/*"],
+        "js":["contentScript.js"]
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Leetcode whiteboard"
+    },
+    "manifest-version": 3
 }
