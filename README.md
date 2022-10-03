@@ -1,2 +1,2 @@
 # LeetcodeWhiteboard
-A chrome extension that you can use as a whiteboard while sloving leetcode problems.
+A chrome extension that you can use as a whiteboard while solving leetcode problems.
